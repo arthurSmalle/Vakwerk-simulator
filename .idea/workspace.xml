@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="function that solves a system with 2-4 variables and equations">
+    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="Added simple graph class from https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/lessons/representing-graphs-in-code/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vakwerk uitreken.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vakwerk uitreken.py" afterDir="false" />
     </list>
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710878349071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added simple graph class from https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/lessons/representing-graphs-in-code/">
+      <option name="closed" value="true" />
+      <created>1710880744678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710880744678</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="function that solves a system with 2-4 variables and equations" />
-    <option name="LAST_COMMIT_MESSAGE" value="function that solves a system with 2-4 variables and equations" />
+    <MESSAGE value="Added simple graph class from https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/lessons/representing-graphs-in-code/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple graph class from https://stackabuse.com/courses/graphs-in-python-theory-and-implementation/lessons/representing-graphs-in-code/" />
   </component>
 </project>
