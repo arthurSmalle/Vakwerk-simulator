@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)">
+    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="Vakwerk Class toegevoegd&#10;deze Class combineert Graphs en punten om een vakwerk voor te stellen&#10;init met 3 basis punten belangrijk voor de opdracht&#10;heeft een functie die de knooppunten print">
+      <change afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Knooppunt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vakwerk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vakwerk uitreken.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vakwerk uitreken.py" afterDir="false" />
     </list>
@@ -149,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710940740613</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Vakwerk Class toegevoegd&#10;deze Class combineert Graphs en punten om een vakwerk voor te stellen&#10;init met 3 basis punten belangrijk voor de opdracht&#10;heeft een functie die de knooppunten print">
+      <option name="closed" value="true" />
+      <created>1710945881556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710945881556</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +187,7 @@
     <MESSAGE value="Basis Class voor knooppunten&#10;bevat:&#10;- 2D positie, forces in x en y richting&#10;- test print functie" />
     <MESSAGE value="implemented force adding function in knooppunt class&#10;implemented position changing function in knooppunt class&#10;(added graph index to test printing)" />
     <MESSAGE value="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)" />
+    <MESSAGE value="Vakwerk Class toegevoegd&#10;deze Class combineert Graphs en punten om een vakwerk voor te stellen&#10;init met 3 basis punten belangrijk voor de opdracht&#10;heeft een functie die de knooppunten print" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vakwerk Class toegevoegd&#10;deze Class combineert Graphs en punten om een vakwerk voor te stellen&#10;init met 3 basis punten belangrijk voor de opdracht&#10;heeft een functie die de knooppunten print" />
   </component>
 </project>
