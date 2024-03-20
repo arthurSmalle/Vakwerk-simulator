@@ -22,7 +22,7 @@ class Graph:
         ## Add for edge list
         self.m_list_of_edges.append([node1, node2, weight])
         ## Add for adj list
-        self.m_adj_list[node1].add((node2, weight))
+        self.m_adj_list[node1].add((node2))
 
         # If a graph is undirected, add the same edge,
         # but also in the opposite direction
@@ -30,7 +30,7 @@ class Graph:
         ## Add for edge list
             self.m_list_of_edges.append([node1, node2, weight])
         ## Add for adj list
-            self.m_adj_list[node2].add((node1, weight))
+            self.m_adj_list[node2].add((node1))
 
     # Print a graph representation
     ## Print edge list
@@ -44,7 +44,7 @@ class Graph:
             print("node", key, ": ", self.m_adj_list[key])
 
 
-class knoopPunt:
+class KnoopPunt:
     # Construction
     def __init__(self, posx, posy, forcex, forcey, graph_index=0 ):
         self.m_position = np.array([posx, posy])  # positie vd vector
@@ -104,3 +104,9 @@ def solveSystem(F1 = 0 , F2 = 0, S1 = 0, S2 = 0, F3 = None, S3 = 0, F4 = None, S
         # solve for x and y
         oplossing = np.linalg.inv(left_side).dot(right_side)
     return oplossing
+def  maximumHoekVDTopHoek(dist=0): # dist is de extra lengte die verkregen wordt door een wat groter gat dan 90cm te maken
+    steun_hoek = np.arctan(40/(45+dist)) # de hoek tussen de balk en de tafel
+    print("steun hoek:", np.rad2deg(steun_hoek), "degrees")
+    top_hoek =  np.pi - (2 * steun_hoek)
+    print("top hoek", np.rad2deg(top_hoek), "degrees")
+    return top_hoek
