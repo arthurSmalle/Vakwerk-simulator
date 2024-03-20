@@ -46,13 +46,30 @@ class Graph:
 
 class knoopPunt:
     # Construction
-    def __init__(self, posx, posy, forcex, forcey):
-        self.m_pos = np.array([posx, posy])
-        self.m_force = np.array([forcex, forcey])
+    def __init__(self, posx, posy, forcex, forcey, graph_index=0 ):
+        self.m_position = np.array([posx, posy])  # positie vd vector
+        self.m_force = np.array([forcex, forcey])  # krachtvector in het knooppunt
+        self.m_graph_index = graph_index  # index zodat het gekoppeld kan worden met de graph
+        return
+
+    def add_force(self, forcex, forcey):
+        self.m_force += np.array([forcex,forcey])
+        return
+
+    def change_position(self,posx,posy):
+        validation :str = str(input("Are you sure you want to change position?\ny/n\n"))
+        if validation == "y":
+            self.m_position = np.array([posx,posy])
+        else:
+            print("Position change aborted")
+            return
+        return
 
     def test_print(self):
-        print("position:", self.m_pos)
+        print("Graph index", self.m_graph_index)
+        print("position:", self.m_position)
         print("force: ", self.m_force)
+        return
 
 
 def solveSystem(F1 = 0 , F2 = 0, S1 = 0, S2 = 0, F3 = None, S3 = 0, F4 = None, S4 = 0):
