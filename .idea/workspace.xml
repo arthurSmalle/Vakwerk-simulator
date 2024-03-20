@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="implemented force adding function in knooppunt class&#10;implemented position changing function in knooppunt class&#10;(added graph index to test printing)">
+    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vakwerk uitreken.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vakwerk uitreken.py" afterDir="false" />
     </list>
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710924029636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)">
+      <option name="closed" value="true" />
+      <created>1710940740613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710940740613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +175,7 @@
     <MESSAGE value="implemented adjacency list (beware of the keyerror)" />
     <MESSAGE value="Basis Class voor knooppunten&#10;bevat:&#10;- 2D positie, forces in x en y richting&#10;- test print functie" />
     <MESSAGE value="implemented force adding function in knooppunt class&#10;implemented position changing function in knooppunt class&#10;(added graph index to test printing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented force adding function in knooppunt class&#10;implemented position changing function in knooppunt class&#10;(added graph index to test printing)" />
+    <MESSAGE value="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)" />
   </component>
 </project>
