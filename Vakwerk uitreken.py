@@ -40,3 +40,6 @@ def  maximumHoekVDTopHoek(dist=0): # dist is de extra lengte die verkregen wordt
     top_hoek =  np.pi - (2 * steun_hoek)
     print("top hoek", np.rad2deg(top_hoek), "degrees")
     return top_hoek
+
+vakwerk1 = Vakwerk()
+vakwerk1.print_knooppunten()

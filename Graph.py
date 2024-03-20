@@ -14,20 +14,20 @@ class Graph:
 
 
     # Add edge to a graph
-    def add_edge(self, node1, node2, weight=1):
+    def add_edge(self, node1, node2, rico=0):
         # Add the edge from node1 to node2
         ## Add for edge list
-        self.m_list_of_edges.append([node1, node2, weight])
+        self.m_list_of_edges.append([node1, node2, rico])
         ## Add for adj list
-        self.m_adj_list[node1].add((node2))
+        self.m_adj_list[node1].add((node2, rico))
 
         # If a graph is undirected, add the same edge,
         # but also in the opposite direction
         if not self.m_directed:
         ## Add for edge list
-            self.m_list_of_edges.append([node1, node2, weight])
+            self.m_list_of_edges.append([node1, node2, rico])
         ## Add for adj list
-            self.m_adj_list[node2].add((node1))
+            self.m_adj_list[node2].add((node1, rico))
 
     # Print a graph representation
     ## Print edge list
