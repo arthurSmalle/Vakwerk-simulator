@@ -1,4 +1,4 @@
-#import numpy as np
+import numpy as np
 
 
 class Graph:
@@ -42,6 +42,18 @@ class Graph:
     def print_adj_list(self):
         for key in self.m_adj_list.keys():
             print("node", key, ": ", self.m_adj_list[key])
+
+
+class knoopPunt:
+    # Construction
+    def __init__(self, posx, posy, forcex, forcey):
+        self.m_pos = np.array([posx, posy])
+        self.m_force = np.array([forcex, forcey])
+
+    def test_print(self):
+        print("position:", self.m_pos)
+        print("force: ", self.m_force)
+
 
 def solveSystem(F1 = 0 , F2 = 0, S1 = 0, S2 = 0, F3 = None, S3 = 0, F4 = None, S4 = 0):
     if F3 == None:
