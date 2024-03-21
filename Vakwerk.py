@@ -23,7 +23,6 @@ class Vakwerk:
         self.m_verbindingen.add_edge(0,2)
         self.m_verbindingen.add_edge(1,2)
 
-
         # voeg de extra knooppunten toe aan de lijst
         if extraKnooppunten != None:
             start_index :int = 2  # index vanaf waar de prebuild punten stoppen

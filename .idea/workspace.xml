@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="Ieder class in een apart bestand geplaats voor debugging en voor leesbaarheid">
+    <list default="true" id="a000a694-ecba-46e5-942a-cf70976e4b0c" name="Changes" comment="changed weigth parameter to angle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vakwerk uitreken.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vakwerk uitreken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vakwerk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vakwerk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710946807583</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed weigth parameter to angle">
+      <option name="closed" value="true" />
+      <created>1710947398673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710947398673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +202,7 @@
     <MESSAGE value="Functie om de tophoe van de constructie te bereken (als de constructie 1 grote driehoek is)" />
     <MESSAGE value="Vakwerk Class toegevoegd&#10;deze Class combineert Graphs en punten om een vakwerk voor te stellen&#10;init met 3 basis punten belangrijk voor de opdracht&#10;heeft een functie die de knooppunten print" />
     <MESSAGE value="Ieder class in een apart bestand geplaats voor debugging en voor leesbaarheid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ieder class in een apart bestand geplaats voor debugging en voor leesbaarheid" />
+    <MESSAGE value="changed weigth parameter to angle" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed weigth parameter to angle" />
   </component>
 </project>
