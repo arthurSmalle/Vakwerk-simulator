@@ -1,3 +1,9 @@
+# Module gebruikt om knooppunten te definiëren
+# iedere instance van deze class is een object met de volgende parameters:
+# - een positie in het vlak
+# - een kracht die inwerkt op dit punt
+# - een index/naam van het punt
+
 import numpy as np
 class KnoopPunt:
     # Construction
